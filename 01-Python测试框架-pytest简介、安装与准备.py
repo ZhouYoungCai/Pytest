@@ -24,6 +24,6 @@ def inc(x):
 # 	代码：
 def test_answer():
 	assert inc(4) == 5
-6、代码运行方式
-	1.输入命令：python test_demo.py
-	2.输入命令：pytest
+# 6、代码运行方式
+# 	1.输入命令：python test_demo.py
+# 	2.输入命令：pytest
