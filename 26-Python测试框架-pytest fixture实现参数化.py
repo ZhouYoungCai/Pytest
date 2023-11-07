@@ -1,0 +1,12 @@
+01、fixture在自动化中的应用，参数化
+		场景：测试离不开数据，为了数据灵活，一般数据都是通过参数传的
+		解决：fixture通过固定参数request传递
+		步骤：在fixture中增加@pytest.fixture(param=[1,2,3,'linda'])
+			  在方法参数写request，方法体里面使用request.param接收参数
+02、fixture用法总结
+		1、模拟setup、teardown（一个用例可以引用多个fixture）
+		2、yield的用法
+		3、作用域（session、module、类级别，方法级别）
+		4、自动执行（autouse参数）
+		5、conftest.py用法，一般会把fixture写在conftest.py文件中（这个文件名字是固定的，不能改）
+		6、实现参数化
