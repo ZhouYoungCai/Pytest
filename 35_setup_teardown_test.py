@@ -1,3 +1,6 @@
+if __name__ == '__main__':
+    #运行当前目录下所有的 用例
+    pytest.main()
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
