@@ -2,7 +2,7 @@
 
 import openpyxl
 import pytest
-from read_excel.func.operation import my_add
+from datadriver_excel.func.operation import my_add
 
 def get_excel():
     """

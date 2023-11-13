@@ -1,7 +1,7 @@
 import json
 
 import pytest
-from read_json.func.operation import my_add
+from datadriver_json.func.operation import my_add
 
 
 def get_json():
