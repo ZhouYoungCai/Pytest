@@ -48,7 +48,7 @@ def test_double_str1():
 if __name__ == '__main__':
     # 1、运行当前目录下所有的 用例
     pytest.main()
-        2、运行./目录下所有（test_*.py 和 *_test.py）
+        #2、运行./目录下所有（test_*.py 和 *_test.py）
         # pytest.main(['./','vs'])
 #     # # 3、运行test_mark1.py::test_dkej模块中的某一条用例
 #     # pytest.main(['test_param.py::test_something','-vs'])
