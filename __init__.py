@@ -3,3 +3,13 @@ if __name__ == '__main__':
     pytest.main()
 #coding:utf-8
 from pytest import *
+
+# package
+# __init__.py
+import re
+import urllib
+import sys
+import os
+# a.py
+import package 
+print(package.re, package.urllib, package.sys, package.os)
